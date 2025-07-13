@@ -14,7 +14,7 @@ import Home from './pages/DashBoard/Home'
 import Income from './pages/DashBoard/Income'
 import Expense from './pages/DashBoard/Expense'
 import Transactions from './pages/DashBoard/Transactions'
-import UserProvider from './context/userContext'
+import UserProvider from './context/UserContext'
 import {Toaster} from 'react-hot-toast'
 
 const App = () => {

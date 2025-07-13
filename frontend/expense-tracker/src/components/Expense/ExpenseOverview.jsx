@@ -8,8 +8,6 @@ const ExpenseOverview = ({transactions, onAddExpense}) => {
 
    useEffect(() => {
      const result= prepareExpenseLineChartData(transactions);
-     console.log("💸 transactions received:", transactions);
-
      setChartData(result);
    
      return () => {}
